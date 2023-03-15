@@ -16,6 +16,6 @@ const generateRoundData = () => {
   return [question, rightAnswer];
 };
 
-const startEvenGame = () => startGame(generateRoundData, instruction);
+const startEvenGame = () => startGame(instruction, generateRoundData);
 
 export default startEvenGame;
