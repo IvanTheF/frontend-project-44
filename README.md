@@ -25,3 +25,7 @@
 <h3>Brain-Progression game demo:<h3>
 
 <a href="https://asciinema.org/a/JcllKWms23cJRrzX3Onu1IFCp" target="_blank"><img src="https://asciinema.org/a/JcllKWms23cJRrzX3Onu1IFCp.svg" /></a>
+
+<h3>Brain-Prime game demo:<h3>
+
+<a href="https://asciinema.org/a/ZWg9NVSgFAYLDFp3cxQJVs014" target="_blank"><img src="https://asciinema.org/a/ZWg9NVSgFAYLDFp3cxQJVs014.svg" /></a>
