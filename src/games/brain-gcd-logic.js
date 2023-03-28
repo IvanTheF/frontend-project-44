@@ -1,13 +1,13 @@
-import startGame from "../index.js";
-import randomNum from "../utils.js";
+import startGame from '../index.js';
+import randomNum from '../utils.js';
 
-const instruction = "Find the greatest common divisor of given numbers.";
+const instruction = 'Find the greatest common divisor of given numbers.';
 
 const getGcd = (firstNumber, secondNumber) => {
   let gcd;
 
   for (let i = 1; i <= firstNumber && i <= secondNumber; i += 1) {
-    if (firstNumber % i == 0 && secondNumber % i == 0) {
+    if (firstNumber % i === 0 && secondNumber % i === 0) {
       gcd = i;
     }
   }

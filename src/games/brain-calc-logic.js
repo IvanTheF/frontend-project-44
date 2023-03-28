@@ -1,26 +1,26 @@
-import startGame from "../index.js";
-import randomNum from "../utils.js";
+import startGame from '../index.js';
+import randomNum from '../utils.js';
 
-const instruction = "What is the result of the expression?";
+const instruction = 'What is the result of the expression?';
 
-const operations = ["+", "-", "*", "/"];
+const operations = ['+', '-', '*', '/'];
 
 const calculate = (firstNumber, secondNumber, operation) => {
   switch (operation) {
-    case "+":
+    case '+':
       return firstNumber + secondNumber;
 
-    case "-":
+    case '-':
       return firstNumber - secondNumber;
 
-    case "*":
+    case '*':
       return firstNumber * secondNumber;
 
-    case "/":
+    case '/':
       return firstNumber / secondNumber;
 
     default:
-      return "Unknown operator.";
+      return 'Unknown operator.';
   }
 };
 

@@ -1,7 +1,7 @@
-import startGame from "../index.js";
-import randomNum from "../utils.js";
+import startGame from '../index.js';
+import randomNum from '../utils.js';
 
-const instruction = "What number is missing in the progression?";
+const instruction = 'What number is missing in the progression?';
 
 const getProgression = (startNum, stepProgression, lengthProgression) => {
   const result = [];
@@ -24,20 +24,19 @@ const generateRoundProgression = () => {
   const progression = getProgression(
     startNum,
     stepProgression,
-    lengthProgression
+    lengthProgression,
   );
   const indexDisappearElement = randomNum(0, progression.length - 1);
 
   const rightAnswer = String(progression[indexDisappearElement]);
 
-  progression[indexDisappearElement] = "..";
+  progression[indexDisappearElement] = '..';
 
-  const question = progression.join(" ");
+  const question = progression.join(' ');
 
   return [question, rightAnswer];
 };
 
-const starProgressionGame = () =>
-  startGame(instruction, generateRoundProgression);
+const starProgressionGame = () => startGame(instruction, generateRoundProgression);
 
 export default starProgressionGame;
