@@ -4,17 +4,17 @@
 
 <h1>Project description:<h1>
 
-"Brain Games" - set of five simple math games.
+<h3>"Brain Games" - set of five simple math games.<h3>
 
-Brain Even - the player has to decide if the number is even or not.
+<h4>1.Brain Even - the player has to decide if the number is even or not.
 
-Brain Calc - the player must calculate the result of a mathematical expression.
+2.Brain Calc - the player must calculate the result of a mathematical expression.
 
-Brain GSD - the player must calculate and enter the greatest common divisor of these numbers.
+3.Brain GSD - the player must calculate and enter the greatest common divisor of these numbers.
 
-Brain Progression - the player must calculate the missing number in arithmetic progression.
+4.Brain Progression - the player must calculate the missing number in arithmetic progression.
 
-Brain Prime - the player must say whether the given number is prime or not.
+5.Brain Prime - the player must say whether the given number is prime or not.<h4>
 
 <h2>Install:<h2>
 
