@@ -1,5 +1,5 @@
 import startGame from '../index.js';
-import randomNum from '../utils.js';
+import generateRandomNumber from '../utils.js';
 
 const instruction = 'What is the result of the expression?';
 
@@ -18,17 +18,14 @@ const calculate = (firstNumber, secondNumber, operation) => {
 
     case '/':
       return firstNumber / secondNumber;
-
-    default:
-      return 'Unknown operator.';
   }
 };
 
-const generateRoundCalc = () => {
-  const firstNumber = randomNum(1, 50);
-  const secondNumber = randomNum(1, 50);
+const generateRoundData = () => {
+  const firstNumber = generateRandomNumber(1, 50);
+  const secondNumber = generateRandomNumber(1, 50);
 
-  const randomOperator = randomNum(0, operations.length - 1);
+  const randomOperator = generateRandomNumber(0, operations.length - 1);
   const operation = operations[randomOperator];
 
   const question = `${firstNumber} ${operation} ${secondNumber}`;
@@ -37,6 +34,6 @@ const generateRoundCalc = () => {
   return [question, rightAnswer];
 };
 
-const startCalcGame = () => startGame(instruction, generateRoundCalc);
+const startCalcGame = () => startGame(instruction, generateRoundData);
 
 export default startCalcGame;

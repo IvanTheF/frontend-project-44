@@ -2,10 +2,30 @@
 <a href="https://codeclimate.com/github/IvanTheF/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/b83a7dd240f1f9461d48/maintainability" /></a>
 [![Actions Status](https://github.com/IvanTheF/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/IvanTheF/frontend-project-44/actions)
 
+<h1>Project description:<h1>
+
+"Brain Games" - set of five simple math games.
+
+Brain Even - the player has to decide if the number is even or not.
+
+Brain Calc - the player must calculate the result of a mathematical expression.
+
+Brain GSD - the player must calculate and enter the greatest common divisor of these numbers.
+
+Brain Progression - the player must calculate the missing number in arithmetic progression.
+
+Brain Prime - the player must say whether the given number is prime or not.
+
 <h2>Install:<h2>
 
-<a href="https://asciinema.org/a/AWnbejDvwWNqOYtaNpMxtQPzW" target="_blank"><img src="https://asciinema.org/a/AWnbejDvwWNqOYtaNpMxtQPzW.svg" /></a>
+Console commands:
 
+git clone git@github.com:IvanTheF/frontend-project-44.git
+make install
+cd frontend-project-44
+npm link
+
+<a href="https://asciinema.org/a/AWnbejDvwWNqOYtaNpMxtQPzW" target="_blank"><img src="https://asciinema.org/a/AWnbejDvwWNqOYtaNpMxtQPzW.svg" /></a>
 
 
 <h2>Launch and gameplay:<h2>

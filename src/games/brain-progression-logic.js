@@ -1,5 +1,5 @@
 import startGame from '../index.js';
-import randomNum from '../utils.js';
+import generateRandomNumber from '../utils.js';
 
 const instruction = 'What number is missing in the progression?';
 
@@ -16,17 +16,17 @@ const getProgression = (startNum, stepProgression, lengthProgression) => {
   return result;
 };
 
-const generateRoundProgression = () => {
-  const stepProgression = randomNum(2, 10);
-  const startNum = randomNum(1, 20);
-  const lengthProgression = randomNum(5, 10);
+const generateRoundData = () => {
+  const stepProgression = generateRandomNumber(2, 10);
+  const startNum = generateRandomNumber(1, 20);
+  const lengthProgression = generateRandomNumber(5, 10);
 
   const progression = getProgression(
     startNum,
     stepProgression,
     lengthProgression,
   );
-  const indexDisappearElement = randomNum(0, progression.length - 1);
+  const indexDisappearElement = generateRandomNumber(0, progression.length - 1);
 
   const rightAnswer = String(progression[indexDisappearElement]);
 
@@ -37,6 +37,6 @@ const generateRoundProgression = () => {
   return [question, rightAnswer];
 };
 
-const starProgressionGame = () => startGame(instruction, generateRoundProgression);
+const starProgressionGame = () => startGame(instruction, generateRoundData);
 
 export default starProgressionGame;
