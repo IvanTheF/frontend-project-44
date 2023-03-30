@@ -1,5 +1,5 @@
 import startGame from '../index.js';
-import generateRandomNumber from '../utils.js';
+import generateRandomNumber from '../randomNumber.js';
 
 const instruction = 'What is the result of the expression?';
 
