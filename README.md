@@ -6,7 +6,7 @@
 
 <h3>"Brain Games" - set of five simple math games.<h3>
 
-<h4>1.Brain Even - the player has to decide if the number is even or not.
+1.Brain Even - the player has to decide if the number is even or not.
 
 2.Brain Calc - the player must calculate the result of a mathematical expression.
 
@@ -14,15 +14,18 @@
 
 4.Brain Progression - the player must calculate the missing number in arithmetic progression.
 
-5.Brain Prime - the player must say whether the given number is prime or not.<h4>
+5.Brain Prime - the player must say whether the given number is prime or not.
 
 <h2>Install:<h2>
 
 Console commands:
 
 git clone git@github.com:IvanTheF/frontend-project-44.git
+
 make install
+
 cd frontend-project-44
+
 npm link
 
 <a href="https://asciinema.org/a/AWnbejDvwWNqOYtaNpMxtQPzW" target="_blank"><img src="https://asciinema.org/a/AWnbejDvwWNqOYtaNpMxtQPzW.svg" /></a>
