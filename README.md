@@ -6,27 +6,27 @@
 
 <h3>"Brain Games" - set of five simple math games.<h3>
 
-1.Brain Even - the player has to decide if the number is even or not.
+<p>1.Brain Even - the player has to decide if the number is even or not.<p>
 
-2.Brain Calc - the player must calculate the result of a mathematical expression.
+<p>2.Brain Calc - the player must calculate the result of a mathematical expression.<p>
 
-3.Brain GSD - the player must calculate and enter the greatest common divisor of these numbers.
+<p>3.Brain GSD - the player must calculate and enter the greatest common divisor of these numbers.<p>
 
-4.Brain Progression - the player must calculate the missing number in arithmetic progression.
+<p>4.Brain Progression - the player must calculate the missing number in arithmetic progression.<p>
 
-5.Brain Prime - the player must say whether the given number is prime or not.
+<p>5.Brain Prime - the player must say whether the given number is prime or not.<p>
 
 <h2>Install:<h2>
 
-Console commands:
+<h3>Console commands:<h3>
 
-git clone git@github.com:IvanTheF/frontend-project-44.git
+<p>git clone git@github.com:IvanTheF/frontend-project-44.git<p>
 
-make install
+<p>make install<p>
 
-cd frontend-project-44
+<p>cd frontend-project-44<p>
 
-npm link
+<p>npm link<p>
 
 <a href="https://asciinema.org/a/AWnbejDvwWNqOYtaNpMxtQPzW" target="_blank"><img src="https://asciinema.org/a/AWnbejDvwWNqOYtaNpMxtQPzW.svg" /></a>
 
