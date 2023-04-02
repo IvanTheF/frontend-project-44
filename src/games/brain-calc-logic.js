@@ -4,7 +4,7 @@ import generateRandomNumber from '../randomNumber.js';
 
 const instruction = 'What is the result of the expression?';
 
-const operators = ['+', '-', '*', '/'];
+const operators = ['+', '-', '*'];
 
 const calculate = (firstNumber, secondNumber, operator) => {
   switch (operator) {
