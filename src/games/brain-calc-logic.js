@@ -17,9 +17,6 @@ const calculate = (firstNumber, secondNumber, operator) => {
     case '*':
       return firstNumber * secondNumber;
 
-    case '/':
-      return firstNumber / secondNumber;
-
     default:
       return `Unknown operator: '${operator}'.`;
   }
