@@ -1,12 +1,13 @@
+import _ from 'lodash';
 import startGame from '../index.js';
 import generateRandomNumber from '../randomNumber.js';
 
 const instruction = 'What is the result of the expression?';
 
-const operations = ['+', '-', '*', '/'];
+const operators = ['+', '-', '*', '/'];
 
-const calculate = (firstNumber, secondNumber, operation) => {
-  switch (operation) {
+const calculate = (firstNumber, secondNumber, operator) => {
+  switch (operator) {
     case '+':
       return firstNumber + secondNumber;
 
@@ -18,18 +19,19 @@ const calculate = (firstNumber, secondNumber, operation) => {
 
     case '/':
       return firstNumber / secondNumber;
+
+    default:
+      return `Unknown operator: '${operator}'.`;
   }
 };
 
 const generateRoundData = () => {
   const firstNumber = generateRandomNumber(1, 50);
   const secondNumber = generateRandomNumber(1, 50);
+  const operator = _.sample(operators);
 
-  const randomOperator = generateRandomNumber(0, operations.length - 1);
-  const operation = operations[randomOperator];
-
-  const question = `${firstNumber} ${operation} ${secondNumber}`;
-  const rightAnswer = String(calculate(firstNumber, secondNumber, operation));
+  const question = `${firstNumber} ${operator} ${secondNumber}`;
+  const rightAnswer = String(calculate(firstNumber, secondNumber, operator));
 
   return [question, rightAnswer];
 };

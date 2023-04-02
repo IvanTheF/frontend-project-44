@@ -4,16 +4,17 @@ import generateRandomNumber from '../randomNumber.js';
 const instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrimeNumber = (number) => {
-  if (number === 1) {
+  if (number < 2) {
     return false;
   }
-  if (number === 2) {
-    return true;
-  }
-  for (let i = 2; i < number; i += 1) {
-    if (number % i === 0) {
+
+  let divider = 2;
+
+  while (divider <= number / 2) {
+    if (number % divider === 0) {
       return false;
     }
+    divider += 1;
   }
   return true;
 };
