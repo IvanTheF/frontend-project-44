@@ -16,6 +16,12 @@
 
 <p>5.Brain Prime - the player must say whether the given number is prime or not.</p>
 
+<h2>Requirements:</h2>
+
+<p>Node.js version 13.2.0 or higher.</p>
+
+<p>Utility make</p>
+
 <h2>Install:</h2>
 
 <h3>Console commands:</h3>
@@ -34,6 +40,8 @@
 <h2>Launch and gameplay:</h2>
 
 <h3>Brain-Even game demo:</h3>
+
+<p>`make brain-even`</p>
 
 <a href="https://asciinema.org/a/VQhMdxlVNdTIkIzYEXIy6Cjxd" target="_blank"><img src="https://asciinema.org/a/VQhMdxlVNdTIkIzYEXIy6Cjxd.svg" /></a>
 
