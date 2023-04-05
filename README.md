@@ -41,7 +41,7 @@
 
 <h3>Brain-Even game demo:</h3>
 
-<p>`make brain-even`</p>
+`make brain-even`
 
 <a href="https://asciinema.org/a/VQhMdxlVNdTIkIzYEXIy6Cjxd" target="_blank"><img src="https://asciinema.org/a/VQhMdxlVNdTIkIzYEXIy6Cjxd.svg" /></a>
 
