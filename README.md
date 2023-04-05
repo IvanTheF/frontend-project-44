@@ -47,16 +47,24 @@
 
 <h3>Brain-Calc game demo:</h3>
 
+`make brain-calc`
+
 <a href="https://asciinema.org/a/SwGegPWtRFx2DlAMqgi9UNPt5" target="_blank"><img src="https://asciinema.org/a/SwGegPWtRFx2DlAMqgi9UNPt5.svg" /></a>
 
 <h3>Brain-GCD game demo:</h3>
+
+`make brain-gcd`
 
 <a href="https://asciinema.org/a/6gPyBYHfwD3aTJ7CgtAH14lQX" target="_blank"><img src="https://asciinema.org/a/6gPyBYHfwD3aTJ7CgtAH14lQX.svg" /></a>
 
 <h3>Brain-Progression game demo:</h3>
 
+`make brain-progression`
+
 <a href="https://asciinema.org/a/JcllKWms23cJRrzX3Onu1IFCp" target="_blank"><img src="https://asciinema.org/a/JcllKWms23cJRrzX3Onu1IFCp.svg" /></a>
 
 <h3>Brain-Prime game demo:</h3>
+
+`make brain-prime`
 
 <a href="https://asciinema.org/a/ZWg9NVSgFAYLDFp3cxQJVs014" target="_blank"><img src="https://asciinema.org/a/ZWg9NVSgFAYLDFp3cxQJVs014.svg" /></a>
