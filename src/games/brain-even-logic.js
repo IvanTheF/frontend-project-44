@@ -6,9 +6,8 @@ const instruction = 'Answer "yes" if the number is even, otherwise answer "no".'
 const isEvenNumber = (number) => number % 2 === 0;
 
 const generateRoundData = () => {
-  const number = generateRandomNumber(1, 100);
-  const question = number;
-  const rightAnswer = isEvenNumber(number) ? 'yes' : 'no';
+  const question = generateRandomNumber(1, 100);
+  const rightAnswer = isEvenNumber(question) ? 'yes' : 'no';
   return [question, rightAnswer];
 };
 

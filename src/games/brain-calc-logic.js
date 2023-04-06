@@ -23,13 +23,14 @@ const calculate = (firstNumber, secondNumber, operator) => {
 
 const getRandomOperator = () => {
   const randomOperator = generateRandomNumber(0, operators.length - 1);
-  return randomOperator;
+  const operator = operators[randomOperator];
+  return operator;
 };
 
 const generateRoundData = () => {
   const firstNumber = generateRandomNumber(1, 50);
   const secondNumber = generateRandomNumber(1, 50);
-  const operator = operators[getRandomOperator()];
+  const operator = getRandomOperator();
 
   const question = `${firstNumber} ${operator} ${secondNumber}`;
   const rightAnswer = String(calculate(firstNumber, secondNumber, operator));

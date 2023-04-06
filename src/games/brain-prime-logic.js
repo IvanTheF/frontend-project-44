@@ -20,11 +20,9 @@ const isPrimeNumber = (number) => {
 };
 
 const generateRoundData = () => {
-  const number = generateRandomNumber(1, 100);
+  const question = generateRandomNumber(1, 100);
 
-  const question = number;
-  const rightAnswer = isPrimeNumber(number) ? 'yes' : 'no';
-
+  const rightAnswer = isPrimeNumber(question) ? 'yes' : 'no';
   return [question, rightAnswer];
 };
 
