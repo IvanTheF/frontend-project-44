@@ -22,9 +22,8 @@ const calculate = (firstNumber, secondNumber, operator) => {
 };
 
 const getRandomOperator = () => {
-  const randomOperator = generateRandomNumber(0, operators.length - 1);
-  const operator = operators[randomOperator];
-  return operator;
+  const randomOperatorIndex = generateRandomNumber(0, operators.length - 1);
+  return operators[randomOperatorIndex];
 };
 
 const generateRoundData = () => {
